@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Software Engineer Checklist | Craftsmanship Archives</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="When I started my career as a software engineer, I didn’t have any map or list of skills that are necessary to succeed. I’ve spent too much time on unimportant stuff, a far too little on crucial thing">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Software Engineer Checklist">
+<meta property="og:url" content="http://lewandowski.io/2020/04/se-roadmap/index.html">
+<meta property="og:site_name" content="Craftsmanship Archives">
+<meta property="og:description" content="When I started my career as a software engineer, I didn’t have any map or list of skills that are necessary to succeed. I’ve spent too much time on unimportant stuff, a far too little on crucial thing">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://lewandowski.io/images/se-map/pingpong.png">
+<meta property="og:image" content="http://lewandowski.io/images/se-map/stackoverflow.png">
+<meta property="og:image" content="http://lewandowski.io/images/se-map/multithreaded.jpg">
+<meta property="og:image" content="http://lewandowski.io/images/se-map/testing.png">
+<meta property="og:image" content="http://lewandowski.io/images/se-map/bigdata.jpg">
+<meta property="og:image" content="http://lewandowski.io/images/se-map/skills.png">
+<meta property="og:image" content="http://lewandowski.io/images/se-map/learning.png">
+<meta property="article:published_time" content="2020-04-03T09:00:00.000Z">
+<meta property="article:modified_time" content="2020-04-03T08:53:00.034Z">
+<meta property="article:author" content="Michał Lewandowski">
+<meta property="article:tag" content="Software Craftsmanship">
+<meta property="article:tag" content="Management">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://lewandowski.io/images/se-map/pingpong.png">
+  
+  
+    <link rel="icon" href="/images/favicon.png">
+  
+  
+ <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70831480-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+  
+
+  
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Craftsmanship Archives" type="application/atom+xml">
+</head>
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="/" id="logo"><span class="site-title">Craftsmanship Archives</span></a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/.">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/talks">Public activity</a>
+        
+          <a class="main-nav-link" href="/about">About Me</a>
+        
+      </nav>
+      
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+      
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit"> </button><input type="hidden" name="sitesearch" value="http://lewandowski.io"></form>
+      </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tr>
+        
+          <td><a class="main-nav-link" href="/.">Home</a></td>
+        
+          <td><a class="main-nav-link" href="/archives">Archives</a></td>
+        
+          <td><a class="main-nav-link" href="/categories">Categories</a></td>
+        
+          <td><a class="main-nav-link" href="/tags">Tags</a></td>
+        
+          <td><a class="main-nav-link" href="/talks">Public activity</a></td>
+        
+          <td><a class="main-nav-link" href="/about">About Me</a></td>
+        
+        <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><input type="hidden" name="sitesearch" value="http://lewandowski.io"></form>
+        </td>
+      </tr>
+    </table>
+  </div>
+</header>
+
+    <div class="outer">
+      
+        <aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      <img id="avatar" src="/css/images/avatar.png">
+      <h2 id="name">Michał Lewandowski</h2>
+      <h3 id="title">Software Developer</h3>
+      <span id="location"><i class="fa fa-map-marker"></i>Warsaw, Poland</span>
+      <a id="follow" href="https://twitter.com/lewandm4" target="_blank" rel="noopener">FOLLOW</a>
+    </div>
+    <div class="article-info profile-block">
+      <div class="article-info-block">
+        39
+        <span>posts</span>
+      </div>
+      <div class="article-info-block">
+        50
+        <span>tags</span>
+      </div>
+    </div>
+    
+    <div class="contact-info profile-block">
+      <table class="contact-list">
+        <tr>
+          
+          <td><a href="https://github.com/mlevvy" target="_blank" title="github"><i class="fa fa-github"></i></a></td>
+          
+          <td><a href="https://twitter.com/lewandm4" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></td>
+          
+          <td><a href="https://www.facebook.com/lewandowski.michal" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></td>
+          
+          <td><a href="/atom.xml" target="_blank" title="rss"><i class="fa fa-rss"></i></a></td>
+          
+        </tr>
+      </table>
+    </div>
+    
+    
+  </div>
+</aside>
+
+      
+      <section id="main"><article id="post-se-roadmap" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      
+	
+		<img src="/images/blog/se-map-banner.jpg" class="article-banner">
+	
+
+
+
+    
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Software Engineer Checklist
+    </h1>
+  
+
+        <div class="article-meta">
+          
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/2020/04/se-roadmap/">
+      <time datetime="2020-04-03T09:00:00.000Z" itemprop="datePublished">2020-04-03</time>
+    </a>
+  </div>
+
+
+          
+  <div class="article-category">
+  	<i class="fa fa-folder"></i>
+    <a class="article-category-link" href="/categories/Software-Development/">Software Development</a>
+  </div>
+
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+                
+        <p><strong>When I started my career as a software engineer, I didn’t have any map or list of skills that are necessary to succeed. I’ve spent too much time on unimportant stuff, a far too little on crucial things. If you know at least something about software development - you can create web service in Django, or build microservice in Spring, crate some machine learning model, or write Spark Job - and you want to advance your career to the next level, this blog post might be helpful for you.</strong></p>
+<p>Before we start, I have good and bad news.<br>The good news is that at some point you will have to unlearn what you have learned. If you learn something, you are becoming blind to other things that you can learn. Remember, you are a creative person; your mind should be free and open for new waters. Do not be afraid to forget stuff.</p>
+<p>The bad news is that you will probably never stop learning.<br>Over time, some things became similar, and we use similar design patterns in different contexts. Even that something is similar, it is not an excuse to stop learning. You need thousands of hours of practice and writing software to be good at it. Besides spending many years writing software, I know that I have deficiencies in some areas that I want to improve.</p>
+<h2 id="Disclaimer"><a href="#Disclaimer" class="headerlink" title="Disclaimer"></a>Disclaimer</h2><p>I’ve tried to build this competence area map to be as universal as possible. Nevertheless, I realize that backend software engineers found it applicable, whether other specializations may found it less useful. </p>
+<p>If any of those concepts are new for you, do not try to learn everything in one week. Learning about software engineering is like going down the rabbit hole. You think that you get it, but then you realize that there is another level of abstraction or other stuff to discover. If you are a person who likes following the rabbit holes, this guide may be for you.</p>
+<h2 id="Original-idea"><a href="#Original-idea" class="headerlink" title="Original idea"></a>Original idea</h2><p>It all started with writing down the desired competency list for myself a few months ago. In the same way, many of us do a medical examination, and I wanted to do my professional skillset examination. I did it in Google Sheets. The total number of rows that I’ve written was 50 - each describing skill, knowledge area, or competence that I want to build or improve in myself.</p>
+<h2 id="Hard-technical-skills"><a href="#Hard-technical-skills" class="headerlink" title="Hard technical skills"></a>Hard technical skills</h2><p>Hard technical skills are a necessity when you are a software developer. While I was writing down technicals skills, I divided them into three groups:</p>
+<ul>
+<li><strong>General</strong>. Those are universal skills that benefit you for many years. Understanding them is an important thing.</li>
+<li><strong>Support</strong>. Although those skills are not necessary to do your job rightly, by having those skills, you gain a deeper understanding and be able to propose more suited solutions.</li>
+<li><strong>Trendy</strong>. The IT profession is susceptible to trends. Today we use that technology, but tomorrow we may use different.  </li>
+</ul>
+<h2 id="General-technical"><a href="#General-technical" class="headerlink" title="General technical"></a>General technical</h2><p>General technical skills are skills that are not going to be outdated promptly. On the other hand, practicing those skills consumes much time, and in my opinion, you need years to practice them, rather than months.</p>
+<ol>
+<li><p><strong>Algorithms</strong>. I often get alarmed whenever I hear that someone is stating that “Learning algorithms is a waste of time.”  Studying algorithms is the essential thing that you can do when you learn computer science. Algorithms are everywhere. Algorithms are often quite different from one another. By studying more and more algorithms, you may develop different solutions for the problems which arise during a regular job. I have to admit that I learn mostly from my experience. Studying algorithms is an eye-opener for new approaches on how to solve things. If I hadn’t studied algorithms, I would propose worse code, simply because I wasn’t familiar with some techniques. </p>
+</li>
+<li><p><strong>Data structures</strong>. Each data structure is designed to arrange data to suit a specific purpose. Sometimes we want to find data quickly or store quickly. Knowing fundamental data structures, like Hash Maps or Trees, is a necessity. Also, it is vital to be familiar with more advanced data structures like probabilistic data structures, immutable data structures, or when we talk about BigData - distributed data structures. </p>
+</li>
+<li><p><strong>Programming</strong>. Can you write code in your primary programming language without an IDE (Integrated Development Environment)? Can you do that using only a text editor and compiler? Without knowing language syntax, builtin libraries, data structures, fundamental data types, it is impossible to be productive. Although I use IDE on my daily basis, it provides me little to none help when it comes to solving simple and primitive code mistakes.</p>
+</li>
+</ol>
+<p><img src="/images/se-map/pingpong.png" alt="Programming languages" title="Programming languages"></p>
+<ol start="4">
+<li><strong>Framework</strong>. Can you write code without using StackOverflow? My primary programming framework is Spring Framework. Things like exposing an API, fetching data from a database, calling other services using HTTP Client, writing unit tests, are natural for me because I am familiar with this framework. If you need to Google everything you need to do and copy-paste the solutions - especially simple tasks - you are probably not familiar with your framework. </li>
+</ol>
+<p><img src="/images/se-map/stackoverflow.png" alt="Stack overflow" title="Stack overflow"></p>
+<ol start="5">
+<li><p><strong>Architecture</strong>. It is easy to understand, maintain, and develop a system with clean and transparent architecture. There is no silver bullet here. You have to know at least a few architectural styles to communicate your ideas, and to understand others. You have to understand the basic concepts. When someone is saying to you, “Event sourcing is ideal for this problem.” you need to be on the same page to discuss details of that architectural style.</p>
+</li>
+<li><p><strong>Database</strong>.  In the initial steps of designing a new system, a database might be a nonrelevant detail to your application architecture. Sooner or later, the database is an element that cannot be ignored. Embrace the polyglot database style. Analyzing database queries, managing indexes, configuring partitioning, and replication is a piece of must-have knowledge. There are far too many different databases on the market to know each well, but you have to know one database at least well and know when to use which database.</p>
+</li>
+<li><p><strong>Design patterns</strong>. If your primary language is object-oriented, you have to know basic design patters (reading a book about design patterns may help). Besides that, there are also more rules, like SOLID, KISS, DRY. There is also DDD and CQRS, which are more like architecture styles. Use those patterns, but do not overuse them.</p>
+</li>
+<li><p><strong>Coding styles</strong>. There are different approaches on how to write code. There is TDD (Test Driven Development), Test First Approach, Pair programming, writing PoC (proof of concept), or writing scripts for one-time use. Each of these styles aims to achieve different things. Try different things and know the advantages and disadvantages of different approaches.</p>
+</li>
+<li><p><strong>Concurrency</strong>, no wonder, is the scariest topic for many developers. It’s hard to test, debug, and reason. Not only you have to understand the behavior of concurrent programming in your language, but you also need to understand your platform well. For example, take JVM. At first glance, you download it, and it works. For me, this is a typical example of a rabbit hole. You have to investigate the Java Memory Model, Garbage Collection, Just-in-time compilers, bytecode. You can not study it in just one day. It may take you weeks to investigate all this stuff.</p>
+</li>
+</ol>
+<p><img src="/images/se-map/multithreaded.jpg" alt="It is a hard thing to do" title="It is a hard thing to do"></p>
+<ol start="10">
+<li><strong>Tests</strong>. There are many different tests that you can write for your code: Unit tests, Integration tests, End to End tests, Chaos testing, mutation testing. It is easy to write test code, but the tricky part is maintaining the test codebase in vital conditions. Test code should be treated with the same importance as your production code. Remember that if you have robust and reliable tests, you can rewrite your production code without any bother.</li>
+</ol>
+<p><img src="/images/se-map/testing.png" alt="Testing" title="Testing"></p>
+<ol start="11">
+<li><p><strong>CI and CD</strong>. I don’t pay much attention, whether it is Jenkins, Bamboo, or GitLab CI. Pick one, and know it well. Understanding why we do Continues Integration or Continues Development is an important aspect. The tool does not matter. The right configuration to achieve the right goals is crucial.</p>
+</li>
+<li><p><strong>Security</strong>. This a vast topic. Essential is asymmetric cryptography (public/private key), authentication methods, access delegation methods - OAuth. On the other hand, you have to know different vulnerabilities (like SQL Injection or Cross-Site Scripting). Then it is essential to realize what types of malware there are and what are the root causes of exploits.  And last, you have to know your technology stack, to design and build safe applications.</p>
+</li>
+<li><p><strong>Network communication</strong>. The first thing to know is “8 fallacies of Distributed Systems.” It helps you to understand the behavior of a network application and characteristic of network communication. Then, digging deep into the network stack helps you understand network communication via modern protocols and debug problems, which sooner or later happen.</p>
+</li>
+<li><p><strong>Rapidity</strong>. Practice, practice, practice until you achieving fluency in general programming. After a few years in software development, you should be able to swiftly develop a new application, fix a bug, or re-engineer a complete system. Anyone can probably write any system, given no time limit. </p>
+</li>
+</ol>
+<h2 id="Supporting"><a href="#Supporting" class="headerlink" title="Supporting"></a>Supporting</h2><p>Supporting skills are skills that are not your core competence. Instead, knowing those things helps you see the complete spectrum of the Software Engineer Toolbox. Although you do not have to be an expert in each aspect, you have to be familiar with each aspect, and be able to develop something in other areas.</p>
+<ol start="15">
+<li><p><strong>Distributed systems</strong>.  Truth be told, I don’t think that I will ever write a system that runs on a single computer. Because we are not able to build faster CPUs and single machines in general, it is reasonable to host your services on commodity class machines or in a cloud in a shared environment. We all need to understand how to design, develop, and maintain a distributed system.</p>
+</li>
+<li><p><strong>Statistics and math</strong>. I noticed that I often use mathematical statistics concepts, which I learn in School. It is Percentiles, standard deviation, quartiles, mean, distribution. I use it all the time, for example, in analyzing service response times or working with almost any kind of data.</p>
+</li>
+<li><p><strong>BigData</strong>. It is good to have some experience with Hadoop, Spark, Job Scheduling mechanism (like Airflow), Stream processing. In the world where we treat data as a bar of gold, you have to know how to work it. A few years ago, it was hard to find someone doing big data, but now I think it is a necessity.</p>
+</li>
+</ol>
+<p><img src="/images/se-map/bigdata.jpg" alt="Dan Ariely" title="Dan Ariely"></p>
+<ol start="18">
+<li><p><strong>Web</strong> . A full-stack developer is a most wanted developer. In my opinion, people claiming to be full-stack developers, most of the time, prefer frontend or backend. It is good to understand both worlds. If you prefer backend, you shouldn’t be afraid to change the frontend and vice versa, but hardly I see experts in both words.</p>
+</li>
+<li><p><strong>Machine Learning</strong>. If you are a Software Engineer, machine learning is an entirely different career path. Machine learning models are becoming more and accessible, so you will only benefit from knowing how machine learning models are built or how to train and work with an artificial neural network.</p>
+</li>
+<li><p><strong>Unix</strong>.  Why do I recommend Linux or Mac for a Software Engineer?  Because of <a href="https://en.wikipedia.org/wiki/Unix_philosophy" target="_blank" rel="noopener">Unix Philosophy</a>. For example, text Processing Toolset. You may state that a Software Engineer should write software and should not work with raw files. Far too often, I see a use-case for tools like sed, awk, or even simple grep does the job. That and many other tasks are simple in Unix.  </p>
+</li>
+<li><p><strong>DevOps toolbox</strong>. In your company, your infrastructure for services is probably ready and configured, and there is a dedicated person to run and manage that thing. Unfortunately, problems are unavoidable. Knowledge of how and where your services are running may be crucial when there is some failure.</p>
+</li>
+<li><p><strong>Site Reliability Engineer mindset</strong>. By this, I understand how to release, monitor, manage an emergency, and all things that you can read in a free by <a href="https://landing.google.com/sre/sre-book/toc/index.html" target="_blank" rel="noopener">Google Engineers</a> Every software developer who has an application on production should embrace those concepts.</p>
+</li>
+<li><p><strong>Computer architecture.</strong> Do you know a computer or server architecture? Do you know about CPU caches, RAM, or network bandwidth? Do you know the limitations of hard disks? It is essential to understand bare metal machines and their physical limitations. It is also good to know about computer construction. Nowadays, we tend to go to the shop and buy a notebook. It might be an unusual experience to build a PC from scratch by yourself.</p>
+</li>
+</ol>
+<h2 id="Trendy"><a href="#Trendy" class="headerlink" title="Trendy"></a>Trendy</h2><p>In this section, you have to answer what is trendy right now. Take a look and write your answers. Do not be sentimental about past technologies. It is not a confession. </p>
+<p><img src="/images/se-map/skills.png" alt="Gotta catch ‘em all!" title="Gotta catch ‘em all!"></p>
+<ol start="24">
+<li>Core programming language: ……..</li>
+<li>Main framework: ……..</li>
+<li>Monitoring: ……..</li>
+<li>CI/CD: ……..</li>
+<li>Build tool: ……..</li>
+<li>Asynchronous and non blocking communication: ……..</li>
+<li>Version Control: ……..</li>
+</ol>
+<p>Some choices are clear to me and rather stable - Git as a version control system. Your primary programming language probably influences other choices. That is fine, as soon as you are aware that you are not working in obsolete and deprecated technologies.</p>
+<p>My programming language of choice is Java (but I have a remarkably pleasant experience with Kotlin), with Gradle as a built tool and git as version control, with project reactor. I know that the project reactor is ugly. Keep in mind that the topic of asynchronous and non-blocking communication is continuously changing. At the begging it was CompletableFuture, then it was RxJava. Now it is a choice between Project Reactor and Kotlin Coroutines.</p>
+<h3 id="People"><a href="#People" class="headerlink" title="People"></a>People</h3><p>Technical skills are not everything. Software Engineers work in teams, so communication skills are as relevant as the ability to code. </p>
+<ol start="36">
+<li><p><strong>Communication</strong>. For me, excellent communication is not about speaking or giving a great presentation. Speaking may be a monologue. Dialogue is when you listen actively to others. Never assume that you know other person intentions or goals. Paraphrase and ask for clarification. </p>
+</li>
+<li><p><strong>Be authentic</strong>. Do not pretend someone you are not.<br>Language: Business and technical.  Communication is tricky.  Business people tend to see profits and results, unlike technical people, who tend to see problems and potential bugs. You have to learn how to communicate your ideas to different groups of people. </p>
+</li>
+<li><p><strong>Respect</strong>. It is a magic glue that holds teams together. We are all equal, so we should treat everyone in the same way. Our workplaces should allow expressing ourselves freely. You have to do it professionally and cut down any insult or aggression.</p>
+</li>
+<li><p><strong>Willing to help</strong>.  Giving useful information or advice to your teammate is a great way to build a relationship. Soon you realize others became willing to help you in the moments when you need it.</p>
+</li>
+<li><p><strong>Give and receive feedback</strong>. Providing high-quality, fact-based, structural feedback is hard. What is harder? Receiving feedback. No one likes to be criticized, and far too often we make it personal. When we make it that way, we became defensive. Thus we do not accept the feedback and remove any chance to improve ourselves. </p>
+</li>
+</ol>
+<h3 id="Product"><a href="#Product" class="headerlink" title="Product"></a>Product</h3><p>We - software developers - do not make software just for fun. We do not use design patterns because someone at the conference said so. Our product should be the most useful for our clients, with the right features; hence we built maintainable software that is easy to extend.</p>
+<ol start="41">
+<li><p><strong>Focus on product, not tasks</strong> . It is easy to forget about the product when working with some issue tracker. Task after task, swiping from TODO column to DONE. Stop for the moment and look for business value gain in those tasks. If there is little to none product improvement in your tasks, there is something wrong. On the other hand, if there are only business tasks and no time for maintenance (or technical debt), there is also something not right.  </p>
+</li>
+<li><p><strong>Propose new features</strong>. Although stakeholders or business people are good at business, they are not experts in technology. I’ve noticed that the best ideas and solutions came from technical people - developers, designers, product owners. Having a good idea is one thing, but having the courage and charisma to propose your ideas is another thing. If you have good ideas, you also have to communicate them effectively.</p>
+</li>
+<li><p><strong>Public relations</strong>. There is going to be a time when your system will not be working correctly or will be down. It may be due to deployment of the new version of the system, hardware or network failure, wrong configuration. No matter what was the cause, you have to clean up the mess, and you have to it professionally. This process usually has three steps:</p>
+<p>a) Fix the problem. Make the system healthy again.<br>b) Repair potential damage.<br>c) Introduce changes to avoid similar emergencies. </p>
+</li>
+</ol>
+<p>What is essential during this time is communication. You have to communicate what happened, what was the impact when the solution is going to be deployed. In the end, writing a blameless postmortem is a thing that helps the whole organization to learn and improve.</p>
+<ol start="44">
+<li><p><strong>Predict (next) requirements</strong>. You have written and deployed your first service from scratch. Soon after that, there are new requirements to develop in that service. There are features often omitted (sometimes on purpose) in the first version of the service and always required in the next iterations. I find that the most popular cases are:</p>
+<p>a) Reporting and analytical module.<br>b) Authorization mechanism.<br>c) System readiness for A/B testing.<br>d) Data search features.</p>
+</li>
+</ol>
+<p>You have to predict or at least talk about those common features at the beginning of the project. Discussing those may help you better plan and organize the design of your system.</p>
+<h2 id="Learning"><a href="#Learning" class="headerlink" title="Learning"></a>Learning</h2><p>During my time at university (5 years at Warsaw University of Technology), the most important thing which I learned was learning how to learn. It is vital to know your possibilities in self-learning. Most of the things that I know are from self-study. It is apparent that I had and still have mentors that point me in a direction, but I’ve to learn by myself.  Below are 6 things that I use to learn new things.</p>
+<p><img src="/images/se-map/learning.png" alt="About learning" title="About learning"></p>
+<ol start="45">
+<li><p><strong>Books</strong>. My average peace of reading is about 15 books a year. It is not much. I’m trying to read books that suit me well. I use Goodreads to find new inspiration. You can see books which I read <a href="https://www.goodreads.com/review/list/71517070-micha-lewandowski" target="_blank" rel="noopener">here</a></p>
+</li>
+<li><p><strong>Blogs</strong>. There a lot of useful blogs to read online. I’ve discovered many exciting blogs from my friends, who shared with me interesting articles. I’ve also added those blogs to my RSS Reader: Feedly so that I can stay up to date.<br>Podcasts and vlogs are modern forms of blogs. I can listen to them on the bus on the headphones. It is the most convenient form for me. </p>
+</li>
+<li><p><strong>Conferences (offline)</strong>. I like traveling to conferences. I’ve to admit that my attitude toward the conference changed. At the beginning of my career, I was eager to listen to every conference talk. Now, most value for me is meeting with people, discussing novelties and trends.</p>
+</li>
+<li><p><strong>Conferences (online)</strong>. Nowadays, conference talks are available online - on YouTube. Because you can speed up or pause the video, I prefer this form of watching conference talks. </p>
+</li>
+<li><p><strong>Workshops</strong>. I love attending workshops. During the workshop, you have a unique ability to focus on a problem, experience new tools on hand. You can discuss the unknowns with the mentor. </p>
+</li>
+<li><p><strong>Knowledge sharing</strong>. And by this, I do not mean to be a rock star speaker or world-famous blogger. It is about helping your colleagues every day, about small things. Whenever you are giving a piece of small advice, you often make sure that this is the right and correct, you often do some research and discover new things. Maybe someone else has a different point of view, and you can learn something new. The code review process is a great place to start. Famous polish speaker Jacek Walkiewicz said: “Kto przewiezie innego człowieka swoją łodzią na drugi brzeg, sam też tam dopływa.” My translation is: “Who will carry another man with his boat to the other side, he also arrives there.” You have to notice if you support someone else, you also support yourself.</p>
+</li>
+</ol>
+<h2 id="Motivation"><a href="#Motivation" class="headerlink" title="Motivation"></a>Motivation</h2><p>What motivates you? Are you desirous to wake up early and code, or maybe each day in the office is a nightmare for you?  For me, if I weren’t a geek, I couldn’t be a software engineer. </p>
+<ol start="51">
+<li><p><strong>Look what is under the hood</strong>. No matter what project you do, sooner or later, something goes wrong, and going deep is inevitable. You may debug your framework or analyze the internals of your database. You should not be afraid to do that. Studying how your toolset works before is even better.</p>
+</li>
+<li><p><strong>Passion</strong>. I firmly believe that you have to love computers and software to be successful as a software developer. Only if you are devoted to something, you can be successful at it. Some people say that they have never worked a day in their life because they love their job so much. In my opinion, passion helps help you wade through the hassle, which happens from time to time. </p>
+</li>
+<li><p><strong>Curiosity</strong>. Steve Jobs once said: “Stay hungry, stay foolish.”  I continuously try to do better. Rewrite some method, refactor some piece of code, try to redesign architecture to be more resilient. Never assume that you are an expert in something - there is always a bigger fish. Experiment, discover new things and have fun. </p>
+</li>
+</ol>
+<h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>Although we have smarter IDE’s, better tools to design software, more productive programming languages, core principals of software engineering didn’t change much. Our computers use Von Neumann architecture, introduced in 1945.  For over 50 years, our programs are still often imperative focused on achieving specific goals.<br>Stability is a good thing because core concepts are the same; you only need to change tools. We place great value on configuring and designing our programs to be resilient to an emergency, network failures. Smaller or bigger innovation is a natural part of our process. <strong>The only constant in life is a change</strong>.  Sooner or later, you are going to unlearn what you know and learn new things. What is going to be? I can not predict the future.</p>
+<p><a href="https://unsplash.com/photos/AFB6S2kibuk" target="_blank" rel="noopener">Photo credit</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://lewandowski.io/2020/04/se-roadmap/" data-id="ck8jycxnc002kf0t144msgepr" class="article-share-link">Share</a>
+      
+        <a href="http://lewandowski.io/2020/04/se-roadmap/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Management/" rel="tag">Management</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software-Craftsmanship/" rel="tag">Software Craftsmanship</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/01/best-books-in-2019/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Two best books in 2019</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Postowa -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:690px;height:90px"
+     data-ad-client="ca-pub-3414223043918813"
+     data-ad-slot="9484894281"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</section>
+      
+        <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">recents</h3>
+    <div class="widget">
+      <ul id="recent-post" class="">
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              <a href="/2020/04/se-roadmap/" class="thumbnail">
+  
+    <span style="background-image:url(/images/blog/se-map-thumbnail.jpg)" alt="Software Engineer Checklist" class="thumbnail-image"></span>
+  
+</a>
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/Software-Development/">Software Development</a></p>
+              <p class="item-title"><a href="/2020/04/se-roadmap/" class="title">Software Engineer Checklist</a></p>
+              <p class="item-date"><time datetime="2020-04-03T09:00:00.000Z" itemprop="datePublished">2020-04-03</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              <a href="/2020/01/best-books-in-2019/" class="thumbnail">
+  
+    <span style="background-image:url(/images/blog/books-thumbnail.jpg)" alt="Two best books in 2019" class="thumbnail-image"></span>
+  
+</a>
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/Book/">Book</a></p>
+              <p class="item-title"><a href="/2020/01/best-books-in-2019/" class="title">Two best books in 2019</a></p>
+              <p class="item-date"><time datetime="2020-01-21T19:46:00.000Z" itemprop="datePublished">2020-01-21</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              <a href="/2019/01/agile-it-organization-design/" class="thumbnail">
+  
+    <span style="background-image:url(/images/blog/agile-it-organization-design-thumbnail.jpg)" alt="Agile IT Organization Design" class="thumbnail-image"></span>
+  
+</a>
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/Book/">Book</a></p>
+              <p class="item-title"><a href="/2019/01/agile-it-organization-design/" class="title">Agile IT Organization Design</a></p>
+              <p class="item-date"><time datetime="2019-01-25T14:46:00.000Z" itemprop="datePublished">2019-01-25</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              <a href="/2017/02/thre-levels-of-tdd-1/" class="thumbnail">
+  
+    <span style="background-image:url(/images/blog/3levelstdd-thumbnail.jpg)" alt="Three levels of TDD" class="thumbnail-image"></span>
+  
+</a>
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/Software-Development/">Software Development</a></p>
+              <p class="item-title"><a href="/2017/02/thre-levels-of-tdd-1/" class="title">Three levels of TDD</a></p>
+              <p class="item-date"><time datetime="2017-02-05T16:06:23.000Z" itemprop="datePublished">2017-02-05</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              <a href="/2016/10/fish-env/" class="thumbnail">
+  
+    <span style="background-image:url(/images/blog/fish-shell-thumbnail.jpg)" alt="Fish shell - Load environment variables from file" class="thumbnail-image"></span>
+  
+</a>
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/Software-Development/">Software Development</a></p>
+              <p class="item-title"><a href="/2016/10/fish-env/" class="title">Fish shell - Load environment variables from file</a></p>
+              <p class="item-date"><time datetime="2016-10-23T15:23:00.000Z" itemprop="datePublished">2016-10-23</time></p>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Book/">Book</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Event/">Event</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/People/">People</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Software-Development/">Software Development</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Technology/">Technology</a><span class="category-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/33rd-Degree/" rel="tag">33rd Degree</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Agile/" rel="tag">Agile</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Bash/" rel="tag">Bash</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/BitBucket/" rel="tag">BitBucket</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Book/" rel="tag">Book</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Clojure/" rel="tag">Clojure</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Concurrency/" rel="tag">Concurrency</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CraftConf/" rel="tag">CraftConf</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Devoxx/" rel="tag">Devoxx</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Devoxx4Kids/" rel="tag">Devoxx4Kids</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Docker/" rel="tag">Docker</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Environment/" rel="tag">Environment</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Fish/" rel="tag">Fish</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Functional/" rel="tag">Functional</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/" rel="tag">Git</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Groovy/" rel="tag">Groovy</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hackaton/" rel="tag">Hackaton</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hibernate/" rel="tag">Hibernate</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Impact-Mapping/" rel="tag">Impact Mapping</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Jackson/" rel="tag">Jackson</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Jenkins/" rel="tag">Jenkins</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Leader/" rel="tag">Leader</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Leadership/" rel="tag">Leadership</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MCE/" rel="tag">MCE</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mac/" rel="tag">Mac</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Management/" rel="tag">Management</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Managment/" rel="tag">Managment</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Maven/" rel="tag">Maven</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Microservices/" rel="tag">Microservices</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Motorcycle/" rel="tag">Motorcycle</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OS-X/" rel="tag">OS X</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Quality/" rel="tag">Quality</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Regex/" rel="tag">Regex</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rust/" rel="tag">Rust</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/STM/" rel="tag">STM</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Scala/" rel="tag">Scala</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sed/" rel="tag">Sed</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shell/" rel="tag">Shell</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Software-Craftsmanship/" rel="tag">Software Craftsmanship</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spring/" rel="tag">Spring</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TDD/" rel="tag">TDD</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Test/" rel="tag">Test</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Test-Driven-Development/" rel="tag">Test Driven Development</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Testing/" rel="tag">Testing</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Time/" rel="tag">Time</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tomcat/" rel="tag">Tomcat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Variables/" rel="tag">Variables</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Xpath/" rel="tag">Xpath</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Zen/" rel="tag">Zen</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">tag cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/33rd-Degree/" style="font-size: 10px;">33rd Degree</a> <a href="/tags/Agile/" style="font-size: 17.5px;">Agile</a> <a href="/tags/Bash/" style="font-size: 10px;">Bash</a> <a href="/tags/BitBucket/" style="font-size: 10px;">BitBucket</a> <a href="/tags/Book/" style="font-size: 12.5px;">Book</a> <a href="/tags/Clojure/" style="font-size: 12.5px;">Clojure</a> <a href="/tags/Concurrency/" style="font-size: 10px;">Concurrency</a> <a href="/tags/CraftConf/" style="font-size: 10px;">CraftConf</a> <a href="/tags/Devoxx/" style="font-size: 12.5px;">Devoxx</a> <a href="/tags/Devoxx4Kids/" style="font-size: 10px;">Devoxx4Kids</a> <a href="/tags/Docker/" style="font-size: 10px;">Docker</a> <a href="/tags/Environment/" style="font-size: 10px;">Environment</a> <a href="/tags/Fish/" style="font-size: 10px;">Fish</a> <a href="/tags/Functional/" style="font-size: 12.5px;">Functional</a> <a href="/tags/Git/" style="font-size: 12.5px;">Git</a> <a href="/tags/Groovy/" style="font-size: 12.5px;">Groovy</a> <a href="/tags/Hackaton/" style="font-size: 12.5px;">Hackaton</a> <a href="/tags/Hibernate/" style="font-size: 10px;">Hibernate</a> <a href="/tags/Impact-Mapping/" style="font-size: 10px;">Impact Mapping</a> <a href="/tags/Jackson/" style="font-size: 10px;">Jackson</a> <a href="/tags/Java/" style="font-size: 20px;">Java</a> <a href="/tags/Jenkins/" style="font-size: 10px;">Jenkins</a> <a href="/tags/Leader/" style="font-size: 10px;">Leader</a> <a href="/tags/Leadership/" style="font-size: 12.5px;">Leadership</a> <a href="/tags/MCE/" style="font-size: 10px;">MCE</a> <a href="/tags/Mac/" style="font-size: 10px;">Mac</a> <a href="/tags/Management/" style="font-size: 10px;">Management</a> <a href="/tags/Managment/" style="font-size: 10px;">Managment</a> <a href="/tags/Maven/" style="font-size: 10px;">Maven</a> <a href="/tags/Microservices/" style="font-size: 10px;">Microservices</a> <a href="/tags/Motorcycle/" style="font-size: 10px;">Motorcycle</a> <a href="/tags/OS-X/" style="font-size: 15px;">OS X</a> <a href="/tags/Quality/" style="font-size: 10px;">Quality</a> <a href="/tags/Regex/" style="font-size: 10px;">Regex</a> <a href="/tags/Rust/" style="font-size: 10px;">Rust</a> <a href="/tags/STM/" style="font-size: 10px;">STM</a> <a href="/tags/Scala/" style="font-size: 10px;">Scala</a> <a href="/tags/Sed/" style="font-size: 10px;">Sed</a> <a href="/tags/Shell/" style="font-size: 10px;">Shell</a> <a href="/tags/Software-Craftsmanship/" style="font-size: 12.5px;">Software Craftsmanship</a> <a href="/tags/Spring/" style="font-size: 10px;">Spring</a> <a href="/tags/TDD/" style="font-size: 10px;">TDD</a> <a href="/tags/Test/" style="font-size: 10px;">Test</a> <a href="/tags/Test-Driven-Development/" style="font-size: 10px;">Test Driven Development</a> <a href="/tags/Testing/" style="font-size: 10px;">Testing</a> <a href="/tags/Time/" style="font-size: 12.5px;">Time</a> <a href="/tags/Tomcat/" style="font-size: 10px;">Tomcat</a> <a href="/tags/Variables/" style="font-size: 10px;">Variables</a> <a href="/tags/Xpath/" style="font-size: 10px;">Xpath</a> <a href="/tags/Zen/" style="font-size: 10px;">Zen</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/01/">January 2011</a><span class="archive-list-count">3</span></li></ul>
+    </div>
+  </div>
+
+  
+  <div id="toTop" class="fa fa-chevron-up"></div>
+</aside>
+      
+    </div>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2011 - 2020 Michał Lewandowski<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice" target="_blank" rel="noopener">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script>
+  var disqus_shortname = 'lewandowskiio';
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+  </div>
+</body>
+</html>
