@@ -451,13 +451,6 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Agile/</loc>
-    <lastmod>2023-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://lewandowski.io/tags/Scala/</loc>
     <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -465,7 +458,21 @@
   </url>
   
   <url>
+    <loc>https://lewandowski.io/tags/Agile/</loc>
+    <lastmod>2023-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lewandowski.io/tags/Book/</loc>
+    <lastmod>2023-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lewandowski.io/tags/OS-X/</loc>
     <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -487,13 +494,6 @@
   
   <url>
     <loc>https://lewandowski.io/tags/STM/</loc>
-    <lastmod>2023-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lewandowski.io/tags/OS-X/</loc>
     <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
