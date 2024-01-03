@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/2020/04/se-roadmap/</loc>
+    <loc>https://lewandowski.io/2015/01/sed-xpath/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/2015/01/sed-xpath/</loc>
+    <loc>https://lewandowski.io/2020/04/se-roadmap/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/2013/04/fest-assert/</loc>
+    <loc>https://lewandowski.io/2015/01/gerrit-maven-release-plugin/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -326,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/2015/01/gerrit-maven-release-plugin/</loc>
+    <loc>https://lewandowski.io/2013/04/fest-assert/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -389,15 +389,6 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/categories/index.html</loc>
-    
-    <lastmod>2023-08-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://lewandowski.io/about/index.html</loc>
     
     <lastmod>2023-08-20</lastmod>
@@ -417,6 +408,15 @@
   
   <url>
     <loc>https://lewandowski.io/talks/index.html</loc>
+    
+    <lastmod>2023-08-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lewandowski.io/categories/index.html</loc>
     
     <lastmod>2023-08-20</lastmod>
     
@@ -469,14 +469,14 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Scala/</loc>
+    <loc>https://lewandowski.io/tags/Rust/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Rust/</loc>
+    <loc>https://lewandowski.io/tags/Scala/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -511,6 +511,13 @@
   </url>
   
   <url>
+    <loc>https://lewandowski.io/tags/Time/</loc>
+    <lastmod>2024-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lewandowski.io/tags/Concurrency/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -519,27 +526,6 @@
   
   <url>
     <loc>https://lewandowski.io/tags/STM/</loc>
-    <lastmod>2024-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lewandowski.io/tags/Time/</loc>
-    <lastmod>2024-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lewandowski.io/tags/CraftConf/</loc>
-    <lastmod>2024-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lewandowski.io/tags/Software-Craftsmanship/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -588,21 +574,14 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Quality/</loc>
+    <loc>https://lewandowski.io/tags/CraftConf/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Spring/</loc>
-    <lastmod>2024-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lewandowski.io/tags/Jackson/</loc>
+    <loc>https://lewandowski.io/tags/Software-Craftsmanship/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -637,21 +616,21 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Impact-Mapping/</loc>
+    <loc>https://lewandowski.io/tags/Spring/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/MCE/</loc>
+    <loc>https://lewandowski.io/tags/Jackson/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Hackaton/</loc>
+    <loc>https://lewandowski.io/tags/Quality/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -672,21 +651,21 @@
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Hibernate/</loc>
+    <loc>https://lewandowski.io/tags/MCE/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Regex/</loc>
+    <loc>https://lewandowski.io/tags/Hackaton/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lewandowski.io/tags/Leadership/</loc>
+    <loc>https://lewandowski.io/tags/Impact-Mapping/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -707,6 +686,13 @@
   </url>
   
   <url>
+    <loc>https://lewandowski.io/tags/Leadership/</loc>
+    <lastmod>2024-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lewandowski.io/tags/Tomcat/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -715,6 +701,20 @@
   
   <url>
     <loc>https://lewandowski.io/tags/Docker/</loc>
+    <lastmod>2024-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lewandowski.io/tags/Hibernate/</loc>
+    <lastmod>2024-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lewandowski.io/tags/Regex/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
